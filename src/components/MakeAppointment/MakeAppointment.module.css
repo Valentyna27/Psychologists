@@ -1,0 +1,174 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 600px;
+  padding: 64px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(25, 26, 21, 0.5);
+}
+
+.closeBtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.doctorCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px;
+  width: auto;
+  height: 44px;
+}
+
+.doctorImg {
+  width: 44px;
+  height: 44px;
+  background: #e0e0e0;
+  border-radius: 15px;
+}
+
+.doctorTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.yourPsText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  color: #8a8a89;
+}
+
+.doctorName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.formInputsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input,
+.phoneInput,
+.timeInput,
+.textarea {
+  padding: 16px 18px;
+  height: 52px;
+  border: 1px solid rgba(25, 26, 21, 0.1);
+  border-radius: 12px;
+  outline: none;
+}
+
+.input,
+.textarea {
+  width: 472px;
+}
+
+.phoneInput,
+.timeInput {
+  width: 232px;
+}
+
+.input::placeholder,
+.phoneInput::placeholder,
+.timeInput::placeholder,
+.textarea::placeholder,
+.input,
+.phoneInput,
+.timeInput,
+.textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--black);
+  background: transparent;
+}
+
+.textarea {
+  height: 116px;
+  resize: none;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.timeModalWrapper {
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+.phoneAndTimeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.inputsBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.icon {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  width: 472px;
+  height: 52px;
+  background: var(--green);
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-top: 40px;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  background-color: var(--dark-green);
+}
+
+.sendingBtn {
+  background-color: var(--dark-green);
+  cursor: not-allowed;
+}

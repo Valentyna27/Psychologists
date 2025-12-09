@@ -1,0 +1,165 @@
+.heroSection {
+  padding: 78px 0;
+  display: flex;
+  gap: 125px;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 595px;
+  margin-top: 48px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.025;
+  letter-spacing: -0.02em;
+}
+
+.colorTitle {
+  color: var(--green);
+  font-style: italic;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  max-width: 510px;
+  margin-top: -20px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 18px;
+  width: 234px;
+  height: 60px;
+  background: var(--green);
+  border-radius: 30px;
+  position: relative;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--dark-green);
+}
+
+.btnText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-right: 30px;
+}
+
+.btnIcon {
+  position: absolute;
+  top: 22.8px;
+  right: 50px;
+}
+
+.imgWrapper {
+  position: relative;
+}
+
+.peopleBox {
+  position: absolute;
+  width: 48.17px;
+  height: 48.17px;
+  background: #fbc75e;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  top: 38px;
+  right: -38px;
+}
+
+.peopleIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.questionBox {
+  width: 40px;
+  height: 40px;
+  background: #4535af;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  position: absolute;
+  top: 185px;
+  left: -34px;
+}
+
+.questionIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  width: 464px;
+  height: 526px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  width: 311px;
+  height: 118px;
+  background: var(--green);
+  border-radius: 20px;
+  padding: 32px;
+  position: absolute;
+  bottom: 75px;
+  left: -100px;
+}
+
+.blockTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blockSmallText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.blockBiggerText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.iconWrapper {
+  width: 54px;
+  height: 54px;
+  background: var(--white);
+  border-radius: 13px;
+  position: relative;
+}
+
+.blockIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

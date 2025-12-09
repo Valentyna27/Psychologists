@@ -1,0 +1,39 @@
+.btnsWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.logBtn,
+.regisBtn {
+  height: 48px;
+  border-radius: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.logBtn {
+  width: 124px;
+  border: 1px solid rgba(25, 26, 21, 0.2);
+  color: var(--black);
+}
+
+.logBtn:hover,
+.logBtn:focus {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.regisBtn {
+  width: 171px;
+  background: var(--green);
+  color: var(--white);
+}
+
+.regisBtn:hover,
+.regisBtn:focus {
+  background: var(--dark-green);
+}

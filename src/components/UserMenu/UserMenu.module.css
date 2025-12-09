@@ -1,0 +1,65 @@
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background: var(--green);
+  border-radius: 10px;
+  position: relative;
+}
+
+.userIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+  width: 135px;
+  height: 48px;
+  border: 1px solid rgba(25, 26, 21, 0.2);
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: var(--green);
+  color: var(--green);
+}

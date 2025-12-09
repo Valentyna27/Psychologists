@@ -1,0 +1,173 @@
+.cardWrapper {
+  position: relative;
+  min-width: 100%;
+  height: auto;
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.photoWrapper {
+  position: relative;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgba(84, 190, 150, 0.2);
+  border-radius: 30px;
+}
+
+.doctorImg {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  border-radius: 15px;
+  object-fit: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circleIcon {
+  position: absolute;
+  right: 9px;
+  top: 7px;
+}
+
+.fullInfoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  gap: 470px;
+  position: relative;
+}
+
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 8px;
+}
+
+.profText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: #8a8a89;
+}
+
+.doctorName {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.heartBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heartIcon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  color: var(--black);
+  fill: none;
+}
+
+.heartBtn.active .heartIcon {
+  fill: var(--green);
+  color: var(--green);
+}
+
+.rateAndPriceWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  top: 24px;
+  right: 78px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.starIcon {
+  margin-right: -28px;
+}
+
+.colorPrice {
+  color: #38cd3e;
+}
+
+.mainInfoTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.mainInfoTextFirstBox,
+.mainInfoTextSecondBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.intoTextWrapper {
+  padding: 8px 16px;
+  gap: 10px;
+  max-width: 100%;
+  min-height: 40px;
+  background: #f3f3f3;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.infoText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.infoGreyText {
+  color: #8a8a89;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(25, 26, 21, 0.5);
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+}
+
+.alertText {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+}

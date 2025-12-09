@@ -1,0 +1,93 @@
+.readMoreBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+  text-align: start;
+  margin-top: -10px;
+}
+
+.readMoreBtn:hover {
+  color: var(--green);
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.personBox {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.personReviewIcon {
+  width: 44px;
+  height: 44px;
+  background: rgba(84, 190, 150, 0.2);
+  border-radius: 100px;
+  position: relative;
+}
+
+.firstLetterOfReviewer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--green);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.personInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.reviewText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25px;
+  color: rgba(25, 26, 21, 0.5);
+}
+
+.makeAppointmentBtn {
+  padding: 14px 32px;
+  width: 227px;
+  height: 48px;
+  background: var(--green);
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.makeAppointmentBtn:hover,
+.makeAppointmentBtn:focus {
+  background: var(--dark-green);
+}

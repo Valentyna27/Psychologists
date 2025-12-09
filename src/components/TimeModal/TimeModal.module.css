@@ -1,0 +1,45 @@
+.dropdown {
+  width: 151px;
+  height: 180px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 25px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list {
+  max-height: calc(28px * 4);
+  overflow-y: auto;
+  text-align: center;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.timeItem {
+  color: rgba(25, 26, 21, 30%);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  /* margin-bottom: 4px; */
+  height: 28px;
+  line-height: 28px;
+}
+
+.timeItem:hover {
+  color: var(--black);
+}
+
+.active {
+  font-weight: 600;
+  color: var(--black);
+  
+}

@@ -1,0 +1,71 @@
+.page {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  text-align: center;
+  max-width: 560px;
+}
+
+.code {
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin: 0 0 16px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.linkHome,
+.linkBrowse {
+  outline: none;
+}
+
+.linkHome {
+  padding: 16px 32px;
+  background: var(--green);
+  color: var(--white);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+.linkHome:hover,
+.linkHome:focus {
+  background: var(--dark-green);
+}
+
+.linkBrowse {
+  padding: 16px 32px;
+  border: 1px solid rgba(25, 26, 21, 0.2);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.linkBrowse:hover,
+.linkBrowse:focus {
+  border-color: var(--green);
+  color: var(--green);
+}
