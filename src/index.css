@@ -64,11 +64,6 @@ button {
   overflow: hidden;
 }
 
-html {
-  overflow-y: auto;
-  scrollbar-gutter: stable both-edges;
-}
-
 :root {
   /* Colors */
   --black: #191a15;

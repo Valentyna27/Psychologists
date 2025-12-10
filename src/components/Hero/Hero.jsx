@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
         <img
           className={css.image}
-          srcSet="/image.jpg 1x, /images/image@2x.jpg 2x"
+          srcSet="/images/image.jpg 1x, /images/image@2x.jpg 2x"
           src="/images/heroImage.jpg"
           alt="psychologist"
         />
